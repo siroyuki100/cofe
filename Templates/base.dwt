@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	
+	<link rel="icon" href="../favicon.ico?v=1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>cafe GREEN GREEN</title>
+<!-- TemplateEndEditable -->
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+		<link href="../css/hover.css" rel="stylesheet" type="text/css">
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+		<link href="../css/style.css" rel="stylesheet" type="text/css">
+<script src="https://kit.fontawesome.com/d70b0a5905.js" crossorigin="anonymous"></script>
+
+	<!-- TemplateParam name="class" type="text" value="" -->
+	<!-- TemplateBeginEditable name="head" -->
+
+
+
+<!-- TemplateEndEditable -->
+
+</head>
+
+<body class="@@(_document['class'])@@">
+<!-- TemplateBeginEditable name="div class hensyuryouiki" -->
+<div class="hensyuryouiki">
+  <div class="page">
+    <header>
+      <nav class="navigation">
+        <ul>
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="../menu.html">MENU</a></li>
+          <li><a href="#">SHOP</a></li>
+          <li><a href="../concept.html">CONCEPT</a></li>
+          <li><a href="#">BARISTA</a></li>
+          <li><a href="#">INFOMATION</a></li>
+        </ul>
+      </nav>
+      <nav class="share">
+        <ul>
+          <li>SHARE:</li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-line"></i></a></li>
+        </ul>
+      </nav>
+      <h1><img src="../images/logo.png" alt="ロゴ"></h1>
+    </header>
+    <main>
+      <div class="bxslider">
+        <div><img"></div>
+        <div><img src="images/pic2.jpg"></div>
+        <div><img src="images/pic3.jpg"></div>
+        <div><img src="images/pic4.jpg"></div>
+        <div><img src="images/pic4.jpg"></div>
+        <div><img src="images/pic4.jpg"></div>
+        <div><img src="images/pic4.jpg"></div>
+      </div>
+    </main>
+    <footer>
+      <h2><img src="../images/fooher-logo.png" alt="ロゴ"></h2>
+      <nav>
+        <ul>
+          <li><a href="#"><i class="far fa-clone"></i>ご利用にあたって</a></li>
+          <li><a href="#"><i class="far fa-clone"></i>プライバシーポリシー</a></li>
+          <li><a href="#"><i class="far fa-clone"></i>お問い合わせ</a></li>
+          <li><a href="#"><i class="far fa-clone"></i>店舗紹介</a></li>
+          <li><a href="#"><i class="far fa-clone"></i>スタッフ募集</a></li>
+        </ul>
+      </nav>
+      <p><small>&copy; cafe GREEN GREEN</small></p>
+    </footer>
+  </div>
+</div>
+<!-- TemplateEndEditable -->
+</body>
+</html>

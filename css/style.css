@@ -1,0 +1,370 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------------------------
+   全体構造
+----------------------------------*/
+body {
+  font-family: 'Fjalla One', "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+  background-color: #fff;
+  color: #262626;
+}
+a {
+  color: #262626;
+}
+.inner {
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+/*--------------------------------
+   ヘッダー
+----------------------------------*/
+header {
+  width: 960px;
+  height: 170px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+}
+header nav.navigation {
+  float: left;
+  font-family: 'Roboto';
+  overflow: hidden;
+  margin-top: 30px;
+  margin-left: 200px;
+}
+header ul {}
+header li {
+  float: left;
+  font-size: 13px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+header .navigation li {
+  margin-right: 20px;
+}
+header a {
+  text-decoration: none;
+}
+header nav.share {
+  overflow: hidden;
+  font-family: 'Roboto';
+  float: right;
+  margin-top: 30px;
+  margin-right: 180px;
+}
+header .share li {
+  font-size: 11px;
+  margin-right: 7px;
+  vertical-align: text-bottom;
+  font-family: 'Roboto';
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+header .share i.fab {
+  font-size: 13px;
+}
+header h1 {
+  clear: both;
+  line-height: 65px;
+}
+header .main-img img {}
+/*--------------------------------
+   フッター
+----------------------------------*/
+footer {
+  height: 160px;
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+}
+footer .bottom-nav {
+  margin: 0 auto;
+  width: 960px;
+}
+footer nav {
+  overflow: hidden;
+  margin-left: 230px;
+  margin-top: 30px;
+}
+footer h2 {
+  margin-top: 30px;
+  margin-right: 10px;
+}
+footer img {}
+footer li {
+  float: left;
+  font-size: 10px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  font-weight: normal;
+}
+footer a {
+  text-decoration: none;
+}
+footer i {
+  margin-right: 5px;
+}
+footer p {
+  clear: both;
+  font-size: 12px;
+  font-family: 'Roboto';
+  margin-top: 40px;
+}
+/*--------------------------------
+   トップページ
+----------------------------------*/
+.home main {}
+.home main img {
+  margin: 0 auto;
+  width: 100%
+}
+/*　スライドショー用　*/
+.main-img .bx-wrapper {
+  box-shadow: none;
+  border: none;
+  left: 0;
+  background-color: transparent;
+  margin: 0 auto;
+}
+/*--------------------------------
+   メニューページ
+----------------------------------*/
+.menu header {
+  width: 100%;
+  height: 750px;
+  background-image: url("../images/menu-top-image.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #fff;
+}
+.menu header a {
+  color: #fff;
+}
+.menu header h2 {
+  font-family: 'Crimson Text';
+  font-size: 100px;
+  text-align: center;
+  line-height: 500px;
+  font-weight: normal;
+}
+.menu main {
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 120px;
+}
+.menu main h3 {
+  font-family: 'Crimson Text';
+  font-size: 26px;
+  font-weight: normal;
+  margin-top: 150px;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+  clear: both;
+  overflow: hidden;
+}
+.menu main .menu-list {
+  width: 960px;
+  margin: 0 auto;
+}
+.menu main ul {
+  overflow: hidden;
+}
+.menu main li {
+  width: 300px;
+  height: 300px;
+  float: left;
+  list-style-type: none;
+  line-height: 300px;
+  text-align: right;
+}
+.menu main a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 40px;
+}
+.menu main .Coffee-Beans {
+  width: 960px;
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.menu main p {
+  width: 450px;
+  font-size: 14px;
+  overflow: hidden;
+}
+.menu main .Turkish-coffe {
+  float: left;
+  overflow: hidden;
+}
+.menu main .Blend-coffe {
+  float: right;
+  overflow: hidden;
+}
+.menu main p.turkishmanu-top {
+  padding-top: 25px;
+  padding-left: 10px;
+  border-top: 1px solid #000;
+  text-align: left;
+}
+.menu main p.turkishborder-bottom {
+  border-bottom: 1px solid #000;
+  padding-bottom: 25px;
+  text-align: left;
+  font-family: 'Crimson Text';
+  font-size: 11px;
+}
+.menu main p.blendmenu-top {
+  padding-top: 25px;
+  border-top: 1px solid #000;
+  text-align: left;
+}
+.menu main p.blendmenu-bottom {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #000;
+  text-align: left;
+  font-family: 'Crimson Text';
+  font-size: 11px;
+}
+.menu main p.kafeinmenu-top {
+  padding-top: 25px;
+  text-align: left;
+}
+.menu main p.kafeinmenu-bottom {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #000;
+  text-align: left;
+  font-family: 'Crimson Text';
+  font-size: 11px;
+}
+.menu main p.dripmenu-top {
+  padding-top: 25px;
+  text-align: left;
+}
+.menu main p.dripmanu-bottom {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #000;
+  text-align: left;
+  font-family: 'Crimson Text';
+  font-size: 11px;
+}
+.menu main p.menu-center {
+  text-align: right;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.menu main .milk {
+  float: left;
+}
+.menu main .lemon {
+  float: right;
+}
+.menu main .lemonmenu-top {
+  padding-top: 25px;
+  border-top: 1px solid #000;
+  text-align: left;
+}
+.menu main .lemonmenu-bottom {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #000;
+  text-align: left;
+  font-family: 'Crimson Text';
+  font-size: 11px;
+}
+.menu main .milkmenur-top {
+  padding-top: 25px;
+  border-top: 1px solid #000;
+  text-align: left;
+}
+.menu main .milkmenu-bottom {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #000;
+  text-align: left;
+  font-family: 'Crimson Text';
+  font-size: 11px;
+}
+.menu footer {
+  margin-bottom: 50px;
+  background-repeat: no-repeat;
+  background-size: 100%
+}
+/*--------------------------------
+   コンセプトページ
+----------------------------------*/
+.concept .page {
+  text-align: center;
+}
+.concept header {
+  width: 100%;
+  height: 750px;
+  background-image: url("../images/concept-main-image.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #fff;
+}
+.concept .top-nav {
+  margin: 0 auto;
+  width: 960px;
+}
+.concept header nav.navigation {}
+.concept header a {
+  color: #fff;
+}
+.concept header nav.share {}
+.concept header h1 {}
+.concept header h2 {
+  font-family: 'Crimson Text';
+  font-size: 100px;
+  text-align: center;
+  line-height: 500px;
+  font-weight: normal;
+}
+.concept main {
+  margin-bottom: 120px;
+}
+.concept main .area {
+  height: 600px;
+}
+.concept main h3 {
+  margin-top: 140px;
+  font-size: 26px;
+  font-weight: 100;
+  margin-bottom: 50px;
+}
+.concept main h4 {
+  font-size: 13px;
+  font-weight: normal;
+}
+.concept main p {
+  font-size: 13px;
+  font-weight: normal;
+  margin-bottom: 40px;
+  line-height: 26px;
+}
+.concept footer {
+  margin-bottom: 50px;
+}
+/*--一部省略--*/
+/*--固定背景の設定--*/
+.cd-fixed-bg {
+  position: relative;
+  min-height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 2;
+}
+/*--固定背景01--*/
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("../images/varistor-image.jpg");
+  height: 600px;
+}
+/*--固定背景02--*/
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("../images/sinzyou-image.jpg");
+  height: 600px;
+}
